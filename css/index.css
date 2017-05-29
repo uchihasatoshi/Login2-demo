@@ -1,8 +1,7 @@
 .box{
-    max-width: 320px;
+    width: 100%;
+    min-height: 100vh;
     margin: 0 auto;
-    height: 100vh;
-    /*background: #ddd;*/
     background: #2b2f3e;
     text-align: center;
 }
@@ -37,6 +36,7 @@
     background: transparent;
     font-size: 14px;
     line-height: 14px;
+    color: #fff;
 }
 .index-login .password{
     margin-bottom: 20px;
@@ -59,6 +59,7 @@
     background: transparent;
     font-size: 14px;
     line-height: 14px;
+    color: #fff;
 }
 .index-login .btn{
 
@@ -77,5 +78,5 @@
     color: #5f626b;
 }
 .index-text a{
-    color: #5f626b;
+    color: #aaa;
 }
